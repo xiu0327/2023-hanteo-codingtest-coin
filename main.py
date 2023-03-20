@@ -4,16 +4,12 @@ coin = Coin()
 
 
 def coin_input_coins():
-    print("동전의 종류를 입력해 주세요.")
-    print("입력 예시 : 1,2,3,4")
-    coins = input()
+    coins = input("동전의 종류를 입력해 주세요. \n입력 예시 : 1,2,3,4 \n")
     return coins
 
 
 def coin_input_expect():
-    print("sum(합)을 입력해 주세요.")
-    print("입력 예시 : 10")
-    expect = input()
+    expect = input("sum(합)을 입력해 주세요. \n입력 예시 : 10 \n")
     return expect
 
 
@@ -36,5 +32,4 @@ def check(data, pattern):
 
 
 if __name__ == '__main__':
-    answer = coin_service()
-    print("answer = ", answer)
+    print("answer = ", coin_service())
